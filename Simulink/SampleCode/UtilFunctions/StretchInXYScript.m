@@ -1,3 +1,6 @@
+
+
+
 profile = posProfile.signals.values;
 Fs = 1000; %Sampling rate is 1000Hz. 
 snipLength = 8;

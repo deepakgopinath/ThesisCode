@@ -1,3 +1,8 @@
+%Script to generate text files containing the position profiles for
+%different kinds of stroke. To be executed after the model is run. This
+%will ensure that scaledPositionProfile will have the necessary position
+%profile. 
+
 angleProfile = scaledPositionProfile.signals.values;
 % angleProfile = yMod;
 Fs = 1000;
